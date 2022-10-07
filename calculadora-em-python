@@ -1,0 +1,20 @@
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+opcao = int(input('''Digite uma opção:
+ 1-Soma
+ 2-Subtração
+ 3-Multiplicação
+ 4-Divisão
+ Sua opção foi: '''))
+
+if opcao == 1:
+    print("Seu resultado foi:", num1 + num2)
+elif opcao == 2:
+    print("Seu resultado foi:", num1 - num2)
+elif opcao == 3:
+    print("Seu resultado foi:", num1 * num2)
+elif opcao == 4:
+    print("Seu resultado foi:", num1 / num2)
+else:
+    print("Opção inválida")
